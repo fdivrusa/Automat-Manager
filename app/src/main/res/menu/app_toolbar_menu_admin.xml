@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never|collapseActionView" />
+
+    <item
+        android:id="@+id/action_quit"
+        android:title="Logout"
+        app:showAsAction="never|collapseActionView" />
+
+    <item
+        android:id="@+id/action_toAutomatView"
+        android:icon="@drawable/ic_automat_view"
+        android:title="Automats view"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_deleteAll"
+        android:icon="@drawable/ic_delete_users"
+        android:iconTint="#e60000"
+        android:title="Delete users"
+        app:showAsAction="never" />
+</menu>

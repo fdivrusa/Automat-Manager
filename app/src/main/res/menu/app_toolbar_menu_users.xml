@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_UserSettings"
+        android:title="Settings"
+        app:showAsAction="never|collapseActionView" />
+
+    <item
+        android:id="@+id/action_UserQuit"
+        android:title="Logout"
+        app:showAsAction="never|collapseActionView" />
+</menu>

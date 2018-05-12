@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="General informations">
+
+        <EditTextPreference
+            android:dialogTitle="Enter your new name"
+            android:inputType="text"
+            android:key="Name"
+            android:maxLength="20"
+            android:summary="Modify your name"
+            android:title="Name" />
+
+        <EditTextPreference
+            android:dialogTitle="Enter your new surname"
+            android:inputType="text"
+            android:key="Surname"
+            android:maxLength="20"
+            android:summary="Modify your surname"
+            android:title="Surname" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Security"
+        android:key="security">
+
+        <EditTextPreference
+            android:dialogTitle="Enter a new password"
+            android:inputType="text"
+            android:key="Password"
+            android:summary="Change your password"
+            android:title="Change password" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
